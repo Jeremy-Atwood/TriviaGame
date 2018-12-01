@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container start">
+        <div class="jumbotron">
+            <h1 class="tName">Test your Superhero knowledge.</h1>
+            <p class="inst">You will be givin a series of questions testing your knowlege of superheros. <br> You have
+                90 seconds to answer each question. </p>
+            <button type="button" id="start" class="btn btn-primary">Start the quiz.</button>
+        </div>
+    </div>
+    <div class="container questions">
+        <div class="jumbotron">
+            <div id="timer"></div>
+            <div class="questionsList">
+                <p id="questions"></p>
+            </div>
+            <button type="button" id="submit" class="submit-button btn btn-primary">Submit</button>
+        </div>
+    </div>
+    <div class="container results">
+        <div class="jumbotron">
+            <div class="questionsResults">
+                <div id="correctNumbers">Correct: </div>
+                <div id="wrongNumbers">Incorrect: </div>
+            </div>
+            <button type="button" id="reset" class=" btn btn-primary">reset</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
